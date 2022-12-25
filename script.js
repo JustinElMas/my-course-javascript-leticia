@@ -1,1 +1,1 @@
-document.writeln("Me gusta programar en JavaScript");
+document.writeln("Hola mundo, Me gusta programar en JavaScript");
