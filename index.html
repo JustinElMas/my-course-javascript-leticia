@@ -5,12 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects Script</title>
+    <style>
+
+        .wrapper {
+            display: grid;
+            /* para hacer una tabla de 3 columnas y que se repita con 1fr */
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px; 
+            grid-auto-rows: minmax(100px, auto);
+        }
+
+        div {
+            border: 1px solid #ccc;
+            margin-bottom: 14px;
+            background: rgba(152, 251, 152, 0.2);
+        }
+
+    </style>
 </head>
 <body>
 
     <p>O melhor code</p>
 
+    <!-- <div class="wrapper">
+        <div class="one">One</div>
+        <div class="two">Two</div>
+        <div class="three">Three</div>
+        <div class="four">Four</div>
+        <div class="five">Five</div>
+        <div class="six">Six</div>
+      </div> -->
+
+      <div class="wrapper">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+        <div class="five">5</div>
+        <div class="six">6</div>
+      </div>
+
     <script src="./script.js"></script>
-    
+      
 </body>
 </html>
